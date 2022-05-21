@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen(c =>
     Description = "Making the pizza",
     Version = "v1"
   });
-})
+});
 
 var app = builder.Build();
 
@@ -25,5 +25,12 @@ app.UseSwaggerUI(c =>
 });
 
 app.MapGet("/", () => "Hello World!");
+app.MapGet("/pizzas", async (PizzaDb db) => await db.Pizzas.ToListAsync());
+app.MapPost("/pizza", async (PizzaDb db, Pizza pizza) =>
+{
+  await db.Pizzas.AddAsync(pizza);
+  await db.SaveChangesAsync();
+  return Results.Created($"/pizza/{pizza.Id}", pizza);
+});
 
 app.Run();
