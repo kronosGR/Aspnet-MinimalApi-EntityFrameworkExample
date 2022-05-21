@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "n46t8RJDZBdSy2DKEymC+/8e6BzLbCZUllYbM8qlci0Gvur3G27IZKhL1kELrgJ7ZnXsakvcLB6kwKgBtkGO4A==",
+  "dgSpecHash": "D6JUnPRYCXqNipsQCY5B0UOrlH3iV9Mp5AvouIe11L3H2lAcbxFwgh3/sAw0WDg85+/Vn++7b/SdMCWv19NGgQ==",
   "success": true,
   "projectFilePath": "F:\\OneDrive\\CLOUD\\DEV\\C#\\Pizzastore\\Pizzastore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\geoel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\geoel\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\geoel\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\geoel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\geoel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\geoel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }
